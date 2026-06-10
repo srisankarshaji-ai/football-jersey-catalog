@@ -1,24 +1,108 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Football Jersey Catalog</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Football Jersey Catalog</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#111;
+    color:white;
+}
+
+header{
+    text-align:center;
+    padding:30px;
+    background:#000;
+}
+
+header h1{
+    color:#00ff88;
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
+}
+
+.card{
+    background:#1c1c1c;
+    border-radius:15px;
+    padding:20px;
+    margin-bottom:20px;
+    box-shadow:0 0 10px rgba(0,255,136,0.2);
+}
+
+.price{
+    color:#00ff88;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.button{
+    display:inline-block;
+    background:#25D366;
+    color:white;
+    padding:12px 20px;
+    text-decoration:none;
+    border-radius:8px;
+    margin-top:10px;
+    font-weight:bold;
+}
+
+.button:hover{
+    opacity:0.9;
+}
+
+.sizes{
+    margin-top:10px;
+    color:#ccc;
+}
+</style>
 </head>
+
 <body>
-    <h1>Football Jersey Catalog</h1>
 
-    <div>
-        <h2>Messi Barcelona 2009 Home</h2>
-        <p>Price: ₹1499</p>
-        <a href="https://wa.me/917012978320">Order on WhatsApp</a>
-    </div>
+<header>
+<h1>Football Jersey</h1>
+<p>Premium Football Jerseys</p>
+</header>
 
-    <hr>
+<div class="container">
 
-    <div>
-        <h2>Real Madrid 2017 Ronaldo Third</h2>
-        <p>Price: ₹1599</p>
-        <a href="https://wa.me/917012978320">Order on WhatsApp</a>
-    </div>
+<div class="card">
+<h2>Messi Barcelona 2009 Home</h2>
+<p class="price">₹1499</p>
+
+<div class="sizes">
+Sizes: S • M • L • XL
+</div>
+
+<a class="button"
+href="https://wa.me/917012978320?text=I%20want%20to%20order%20Messi%20Barcelona%202009">
+Order on WhatsApp
+</a>
+</div>
+
+<div class="card">
+<h2>Real Madrid 2017 Ronaldo Third</h2>
+<p class="price">₹1599</p>
+
+<div class="sizes">
+Sizes: S • M • L • XL
+</div>
+
+<a class="button"
+href="https://wa.me/917012978320?text=I%20want%20to%20order%20Real%20Madrid%202017%20Ronaldo">
+Order on WhatsApp
+</a>
+</div>
+
+</div>
 
 </body>
 </html>
